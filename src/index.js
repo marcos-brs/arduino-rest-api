@@ -1,5 +1,5 @@
 const { Board, Led } = require("johnny-five");
-const express = require('express');
+const express = require("express");
 
 const board = new Board();
 const app = express();
@@ -30,7 +30,7 @@ app.get('/led/:mode', function (req, res) {
                 led.stop();
                 break;
             default:
-                message = "Unknown mode: ";
+                message = "Unknown mode => ";
                 break;
         }
         console.log(message + mode);
