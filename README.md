@@ -28,7 +28,11 @@ yarn
 
 Connect your board into pc and run
 ```
-node index.js
+npm start
+```
+Or if you use yarn
+```
+yarn start
 ```
 
 ## Author
